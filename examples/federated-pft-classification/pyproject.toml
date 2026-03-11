@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "federated_pft_classification"
-version = "1.0.0"
-description = "Federated classification using XG-Boost to predict lung function categories based on pulmonary function tests, specifically spirometry. Data cleaning and target generation procedures are based off of University of Toronto Pulmonary Function Test Guidelines."
+version = "1.0.1"
+description = "Federated XGBoost classification of lung function categories from spirometry data, using U of T Pulmonary Function Test Guidelines."
 license = "Apache-2.0"
 dependencies = [
     "flwr[simulation]>=1.26.1",
